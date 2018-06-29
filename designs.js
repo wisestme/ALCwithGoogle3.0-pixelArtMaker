@@ -10,7 +10,7 @@ $('#sizePicker').submit(function(event){
 });
 
 // function to clear and create grid dynamically using "for" and "while" loops
-function makeGrid(row, col) {
+function makeGrid(row, col){
 	$('tr').remove();
 	for(var i = 1; i <= row; i++){
 		$('#pixelCanvas').append('<tr></tr>');
